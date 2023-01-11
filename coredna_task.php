@@ -46,7 +46,7 @@ $API = new API;
 $payload = array(
     'name' => 'Ravi Jyothula',
     'email' => 'ravijyothula@gmail.com',
-    'url' => 'https://github.com/ravijyothula/coredna_task.php'
+    'url' => 'https://github.com/ravijyothula/coredna_task'
 );
 
 echo $API->postData('https://corednacom.corewebdna.com/assessment-endpoint.php', json_encode($payload));
